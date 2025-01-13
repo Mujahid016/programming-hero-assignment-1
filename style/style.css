@@ -1,46 +1,66 @@
 
 
 .fira-sans-normal {
-  font-family: "Fira Sans", serif;
+  font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+background: rgb(245,245,245);
+gap: 80; 
+padding: 24px 160px 24px 160px;
+width: 1280px;
+height: 560px;
+  /* font-family: "Fira Sans", serif;
   font-weight: 100;
   font-style: normal;
-  margin: 0 64px;
-  background: rgb(245,245,245);
+  /* margin: 0 64px; */
+  /* background: rgb(245,245,245);  */
   
 }
 
 .container{
-  border-radius: 24px;
-
-background: rgb(198, 228, 214);
+ 
 width: 1280px;
 height: 560px;
 
 
 display: flex;
 /* flex-direction: row; */
-justify-content: space-between;
+
+/* justify-content: center; */
 align-items:center;
-gap: 16px;
-padding: 80px 100px 80px 100px;
+/* justify-items: center; */
+gap: 64;
+/* padding: 30px 20px 30px 50px; */
+/* padding: 48px; */
+/* margin: 80px 0; */
+/* margin-top: 24px 0px; */
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
 
 }
 .sub-title{
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans; 
+  /* font-family: Fira Sans; 
   font-size: 24px;
    font-weight: 500;
    line-height: 29px;
-   letter-spacing: 0%;
-   text-align: left;
-   margin-bottom: 0
+   letter-spacing: 0%; */
+   /* align-content: flex-start; */
+  margin: 16px 0;
+  gap: 16;
 }
 .title{
-  font-size: 56px;
+  /* font-size: 56px;
 font-weight: 700;
 line-height: 67px;
-letter-spacing: 0%;
-gap: 16px;
+letter-spacing: 0%; */
+gap: 16;
+margin: 16px 0px;
  
 }
 
@@ -50,19 +70,26 @@ gap: 16px;
     border: none;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
+    margin: 16px 0;
 
 background: rgb(0, 106, 80);
   }
   .banner-1{
+    width: 622px;
+    height: 326px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 16px;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    /* gap: 24; */
+    /* padding: 0px; */
+    margin: 0 64px;
     
   }
-  .img-class{
+  .img-hero{
+    width: 474.03px;
+height: 400px;
+margin: 0 64px;
 
 
   }
@@ -329,6 +356,7 @@ margin: 80px 0px;
   width: 600px;
   height: 55px;
   gap: 12;
+  padding-left: 16px;
 }
 .btn-subscribe{
   width: 150px;
