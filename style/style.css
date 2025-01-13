@@ -5,6 +5,7 @@
   font-weight: 100;
   font-style: normal;
   margin: 0 64px;
+  background: rgb(245,245,245);
   
 }
 
@@ -17,7 +18,7 @@ height: 560px;
 
 
 display: flex;
-flex-direction: row;
+/* flex-direction: row; */
 justify-content: space-between;
 align-items:center;
 gap: 16px;
@@ -157,8 +158,8 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 background-image: url(/assets/quote-bg.png);
 background-repeat: no-repeat;
-
-/* padding: 48px 24px 48px 24px; */
+background-position: 1.9% 22%;
+padding: 48px 24px 48px 24px;
 
   
 
@@ -174,4 +175,173 @@ background-repeat: no-repeat;
   text-align: left;
   gap: 80;
   
+}
+.btn-read{
+  border-radius: 8px;
+
+background: rgb(0, 106, 80);
+padding: 13px 26px 13px 26px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.contain-12{
+  margin: 0 32px;
+}
+.contain-13{
+  display: flex;
+  border-radius: 24px;
+background: rgb(255, 255, 255);
+padding: 48px;
+margin-bottom: 32px ;
+}
+.img-22{
+  border-radius: 24px;
+
+  background: url(assets/satelite.png);
+}
+.h-59{
+  text-align: center;
+}
+.p-59{
+  text-align: center;
+}
+.p-4444{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.p-111{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255,255,255);
+padding: 40px;
+margin: 0 24px;
+}
+.p-222{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(198,228,214);
+padding: 40px;
+margin: 0 24px;
+}
+.p-333{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 40px;
+margin: 0 24px;
+}
+.p-444{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255,255,255);
+padding: 40px;
+gap: 40;
+margin: 32px 0;
+}
+.input-style{
+  box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+width: 1032px;
+height: auto;
+border: none; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.btn-77{
+  text-align: center;}
+  .btn-70{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  color: rgb(255,255,255);
+  margin: auto;
+  font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+}
+.input-style-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+  color: rgb(255, 255, 255);
+/* font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%; */
+}
+.donate-section{
+  margin: 80px 0px;
+}
+.subscribe-section{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+margin: 80px 0px;
+}
+.input-subscribe{
+  border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+margin: 80px 0px;
+
+}
+.input-last{
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+
+  border: none;
+  width: 600px;
+  height: 55px;
+  gap: 12;
+}
+.btn-subscribe{
+  width: 150px;
+  height: 56px;
+  
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+}
+.input-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
